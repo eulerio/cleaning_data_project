@@ -1,6 +1,6 @@
-## Synopsis
+## Introduction
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This code contains the function run_analysis.R which takes in raw Samsung fitness data and produces a large data frame called pig_data and a smaller, tidier data frame called tidy_data. This is output to a text file tidy_data.txt
 
 ## Code Example
 
