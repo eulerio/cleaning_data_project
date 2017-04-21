@@ -17,5 +17,7 @@ Using this, we loop over these numbers, extracting these columns from both test 
 1. std of first measurement
 1. repeats for other measurements
 
-After this the tidy data frame is created. The pig_data is factored based on the interaction of subject and activity variables. This is done using the "by" function  
+After this the tidy data frame is created. The pig_data is factored based on the interaction of subject and activity variables. This is done using the "by" function so that the data frame is split into multiple data frames with each unique combination of subject and activity is a unique data frame. The colMeans function is used on each factored data frame to calculate the average measurements. Then the data frames are merged to create the tidy_data data frame
+
+After this some renaming is done to give the activities and measurements some suitable names. And then the tidy data is written to a text file. 
 
