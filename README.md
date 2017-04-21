@@ -17,5 +17,5 @@ Using this, we loop over these numbers, extracting these columns from both test 
 1. std of first measurement
 1. repeats for other measurements
 
-  
+After this the tidy data frame is created. The pig_data is factored based on the interaction of subject and activity variables. This is done using the "by" function  
 
